@@ -1,0 +1,53 @@
+#contato{
+    width: 100%;
+  
+}
+
+.container-contato{
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    align-items:center;
+}
+
+.container-contato h3 {
+    color:rgb(102, 101, 101) ;
+   
+}
+
+#container-button{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.logo-cont{
+    background-color: #7D5235;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 10px;
+    
+
+}
+#contato-button span{
+    color: rgb(93, 93, 93);
+    gap: 10px;
+}
+
+
+#contato-button {
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 1000px){
+    #container-button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

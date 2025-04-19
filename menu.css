@@ -1,0 +1,151 @@
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+
+    & img{
+        width: 76%;
+        height:76%;
+    }
+
+
+
+}
+
+#dishes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin-top:50px;
+    justify-content: center;
+}
+
+
+
+
+
+.dish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 22%;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0 , 0, 0.1);
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.dish:hover{
+    transform: translateY(-10px);
+}
+
+.dish-heart{
+    position: absolute;
+    background-color: #7D5235;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    color: white;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px  30.5px  0px 30.5px;
+    
+
+}
+
+.dish-description{
+    color: #434343;
+    text-align: center;
+    font-size: 100;
+    width: 70%;
+}
+
+.dish-rate i {
+    color: #7D5235;
+}
+
+.dish-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#dishes .vermais {
+    display: none; /* Oculta inicialmente */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#ver-mais-btn{
+    background-color: #7D5235;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#ver-mais-btn:hover{
+    background-color: #5b3e2a;
+}
+
+#ver-menos-btn{
+    background-color: #7D5235;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#ver-menos-btn:hover{
+    background-color: #5b3e2a;
+}
+
+@media screen and (max-width: 1000px){
+    #menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    #dishes{
+        width: 90%;
+    }
+
+    .dish{
+        width: 90%;
+    }
+
+    .dish-heart{
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    
+}
+
+

@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 600;
+    font-style: normal;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #e9e5db;
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.btn-defaut{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #7D5235;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgb(0 , 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+
+}
+
+.btn-defaut:hover{
+    background-color: #C9AB87;
+}
+
+
+.social-midia-buttons{
+    display: flex;
+    gap: 18px;
+
+}
+
+.social-midia-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1.25rem  ;
+    text-decoration: none;
+    color: #7D5235;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0,0.1);
+
+}
+
+.social-midia-buttons a:hover {
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0,0.1);
+    
+}
+
+.section-title{
+    color: #C9AB87;
+    font-size: 1.563rem;
+}
+.section-subtitle{
+    font-size: 2.1875rem;
+}
