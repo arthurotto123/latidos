@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/carrossel.css">
+    <link rel="stylesheet" href="src/styles/sobrenos.css">
+    <link rel="stylesheet" href="src/styles/contato.css">
+    <link rel="shortcut icon" href="src/images/logolatidos-removebg-preview.png" type="image/x-icon">
+    <title>LANDING PAGE</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            
+                <img src="src/images/logolatidos-removebg-preview.png" alt="" class="logo-header">
+                <h1 class="logo-nome">LATIDOS</h1>  
+
+             <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">INÍCIO</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">CARDÁPIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">AVALIAÇÕES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#carrossel">PETS</a>
+                </li>
+                
+             </ul>
+
+             <button class="btn-defaut">
+                ENTRE EM CONTATO
+             </button>
+             <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+             </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">INÍCIO</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">CARDÁPIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">AVALIAÇÕES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#carrossel">PETS</a>
+                </li>
+                
+             </ul>
+
+             <button class="btn-defaut">
+                <a href="tel:+5555555555" class="btn-defaut"> ENTRE EM CONTATO</a>
+             </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">     
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Vem pelo café, <span>Fica pelos pets!</span>
+                </h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque id numquam, ab beatae vitae reprehenderit non repudiandae sint tempora, nostrum tempore praesentium delectus facere repellendus velit voluptatibus quis. Maiores, quaerat.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-defaut">VER CARDÁPIO</a>
+
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn-defaut"> <i class="fa-solid fa-phone"></i>
+                        </button>(51) 99138-8252
+                    </a>
+                </div>
+
+                <div class="social-midia-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+
+            </div>
+            <div id="banner">
+                <img src="src/images/bunner.png" class="img-bunner" src="">
+
+            </div>
+
+
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">CARDÁPIO</h2>
+            <h3 class="section-subtitle">Produtos em destaque:
+            </h3>
+
+            <div id="dishes">
+
+                
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+                    <img src="src/images/frappuccino.webp" class="dish-image" alt="">
+                    <h3>FRAPPUCCINO</h3>
+                    <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(400+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$9</h4>
+                    </div>
+
+                </div>
+
+               
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-cat"></i>
+                        </div>
+                        <img src="src/images/CHOCOLATEQUENTE.png" class="dish-image" alt="">
+                        <h3>CHOCOLATE QUENTE</h3>
+                        <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</span>
+                        <div class="dish-rate">
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <span>(400+)</span>
+                        </div>
+                        <div class="dish-price">
+                            <h4>R$5</h4>
+                        </div>
+                    </div>
+
+                    
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+                    <img src="src/images/frappuccino.webp" class="dish-image" alt="">
+                    <h3>FRAPPUCCINO</h3>
+                    <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(400+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$9</h4>
+                    </div>
+
+                </div>
+
+               
+
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-cat"></i>
+                        </div>
+                        <img src="src/images/CHOCOLATEQUENTE.png" class="dish-image" alt="">
+                        <h3>CHOCOLATE QUENTE</h3>
+                        <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</span>
+                        <div class="dish-rate">
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <span>(400+)</span>
+                        </div>
+                        <div class="dish-price">
+                            <h4>R$5</h4>
+                        </div>
+                    </div>
+
+
+
+
+                <div class="vermais">
+
+              
+                    <div class="dish">
+                        <div class="dish-heart">
+                            <i class="fa-solid fa-cat"></i>
+                        </div>
+                        <img src="src/images/CHOCOLATEQUENTE.png" class="dish-image" alt="">
+                        <h3>CHOCOLATE QUENTE</h3>
+                        <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</span>
+                        <div class="dish-rate">
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <i class="fa-solid  fa-star"></i>
+                            <span>(400+)</span>
+                        </div>
+                        <div class="dish-price">
+                            <h4>R$5</h4>
+                        </div>
+                    </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+                    <img src="src/images/frappuccino.webp" class="dish-image" alt="">
+                    <h3>FRAPPUCCINO</h3>
+                    <span class="dish-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    <div class="dish-rate">
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <i class="fa-solid  fa-star"></i>
+                        <span>(400+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$9</h4>
+                    </div>
+
+                      
+                
+                </div>
+                
+                </div>
+            
+            </div> 
+            
+                     <button id="ver-mais-btn">Ver mais</button>
+                     <button id="ver-menos-btn" style="display: none;">Ver menos</button>
+
+
+                 
+        </section>
+
+    <section id="carrossel">
+            <div class="title-carrossel">
+                <h2>NOSSOS BICHINHOS</h2>
+            </div>
+
+        <div class="container">
+
+            <div class="conteudo-container">
+                <img src="src/images/pet1.jpg" alt="imagem de cachorro">
+                <h3>Princesa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate !</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+
+            <div class="conteudo-container">
+                <img src="src/images/pet2.jpg" alt="imagem de  cachorro">
+                <h3>Jujuba</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+
+            <div class="conteudo-container">
+                <img src="src/images/pet3.jpg" alt="imagem de cachorro">
+                <h3>Nino</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+
+            <div class="conteudo-container">
+                <img src="src/images/pet4.jpg" alt="imagem  de cachorro">
+                <h3>Bruninho</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+
+            
+
+         <div class="vermais1">
+            <div class="conteudo-container">
+                <img src="src/images/pet6.jpg" alt="imagem de gato">
+
+                <h3>Lulu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate  incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+            <div class="conteudo-container">
+                <img src="src/images/pet7.jpg" alt="imagem  de gato">
+
+                <h3>Bob</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate  incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+            <div class="conteudo-container">
+                <img src="src/images/pet8888888.jpg" alt="imgem de gato">
+
+                <h3>Summy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate  incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+            <div class="conteudo-container">
+                <img src="src/images/pet9.avif" alt="imagem de gato"> 
+
+                <h3>Mingau</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias, rerum enim quae magni cupiditate  incidunt!</p>
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+
+         
+
+         </div>
+        </div>
+
+        <button id="ver-mais-btn1">Ver mais</button>
+    <button id="ver-menos-btn1" style="display: none;">Ver menos</button>
+
+        
+
+        <div id="cta_buttons">
+            
+
+            <a href="tel:+5555555555" id="phone_button">
+                <button class="btn-defaut"> <i class="fa-solid fa-phone"></i>
+                </button>Entre em contato
+            </a>
+        </div>
+   
+
+    </section>
+
+        <section id="testimonials">
+            <img src="src/images/funcionario.png" class="testimonial_chef" alt="">
+
+         <div id="feedbacks"> 
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+            </div>
+
+           
+                <div class="feedback">
+                    <img src="src/images/avatar1.webp" class="feedback-avatar" alt="">
+                    <div class="feedback-content">
+                        <p>Lorem ipsum dolor
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ut nobis expedita ratione magni eveniet unde .
+                        </p>
+                </div>
+            </div>
+           
+
+            
+                <div class="feedback">
+                    <img src="src/images/avatar1.webp" class="feedback-avatar" alt="">
+                    <div class="feedback-content">
+                        <p>Lorem ipsum dolor
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ut nobis expedita ratione magni eveniet unde .
+                        </p>
+                </div>
+            </div>
+           
+
+            <button class="btn-defaut">
+                Ver mais avaliações
+
+            </button>
+
+
+    
+        </section>
+
+        <section  id="sobrenos">
+    
+            <div class="sobrenos-container">
+                <div class="esquerda-sobrenos">
+                    <h3>Sobre Nós</h3>
+                    <img src="src/images/logolatidos-removebg-preview.png" class="logo-sobrenos" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga aliquid laudantium quis laboriosam fugit ab nobis facere, beatae a, possimus ipsa. Corporis ut illum numquam enim voluptas amet nihil.</p>
+                    <a href="#tel:+555555555555" class="btn-defaut">Entre em contato</a>
+
+                </div>
+                <div class="direita-sobrenos">
+                    <img src="src/images/imgsob3.jpg" class="img-sobrenos" alt="">
+                </div>
+            </div>
+        
+        </section>
+
+        <section id="contato">
+            <div class="container-contato">
+                <h3>Entre em contato para mais informações:</h3>
+                <div id="container-button">
+                   
+
+                    <a href="tel:+5555555555" id="contato-button">
+                        <button class="logo-cont"> <i class="fa-solid fa-phone"></i>
+                        </button><span>(51) 99456-3490</span>
+                    </a>
+
+                    <a href="tel:+ 55555555" id="contato-button">
+                        <button class="logo-cont"> <i class="fa-solid fa-phone"></i>
+                        </button><span>(51) 99138-8252</span>
+                    </a>
+                    <a href="#" id="contato-button">
+                        <button class="logo-cont"> <i class="fa-solid fa-envelope"></i>
+                        </button><span>Latidos@gmail.com</span>
+                    </a>
+
+                    <a href="#" id="contato-button">
+                        <button class="logo-cont"> <i class="fa-solid fa-house"></i>
+                        </button> <span>exemplo de endereço</span>
+                    </a>
+                </div>
+               
+            </div>
+        </section>
+
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
